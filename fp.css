@@ -1,0 +1,40 @@
+.bg-light-custom {
+  background-color:#FC466B;
+  padding-top: 8px;
+  padding-bottom: 8px;/*padding: 0.5rem 1rem;padding order: top-bottom left-right,0.5rem = 8px (top and bottom),1rem = 16px (left and right)*/
+  padding-right: 16px;
+  position: fixed;
+  overflow: hidden;
+  padding-left: 16px;
+  z-index: 10;
+ }
+#home {
+  display: none;
+}
+.para1{
+  padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#about{
+  display: none;
+}
+.ok{
+  color: aliceblue;
+}
+.olk {
+  background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+   /* or use height: auto for content-based height */
+}
+.nav-link{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.head1{
+  font-size: 20px;
+  color: lightgray;
+}
+.text1{
+  font-weight: bold;
+}
